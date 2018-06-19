@@ -1,10 +1,11 @@
 /* app */
 @import url('https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i&subset=cyrillic,cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext');
 
 #head {
     height:         3rem;
     margin:         0;
-    /* z-index:        0; */
+    z-index:        0;
 }
 
 #logo, .header-left p {
@@ -28,7 +29,7 @@
     width:          100%;
     padding:        0;
     margin:         0;
-    /* z-index:        9999; */
+    z-index:        9999;
 }
 
 .header-left {
@@ -73,7 +74,7 @@
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.1rem;
     font-weight: 500;
     color: #e9e5e5;
     font-size: 0.755rem;
@@ -193,6 +194,7 @@
       background: #aeefb9;
     }
     .dropdown > input[type="checkbox"] {
+      margin: 0;
       opacity: 0;
       display: block;
       position: absolute;
